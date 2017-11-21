@@ -6,7 +6,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 
 require("../static/todo.scss");
 
-let appId = "testing-aqjnx";
+let appId = "<your-app-id>";
 if (process.env.APP_ID) {
   appId = process.env.APP_ID;
 }
